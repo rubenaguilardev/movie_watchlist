@@ -1,0 +1,132 @@
+/* Import Google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body {
+    background-color: #1C1C1C;
+}
+
+main {
+    width: 550px;
+    height: 779px;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    background-color: #0E0E0E;
+}
+
+header {
+    background-color: #121212;
+    background-image: url("../img/header.png");
+    height: 13rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+    position: relative;
+    margin-bottom: 61px;
+}
+
+h1 {
+    font-size: 42.79px;
+    font-weight: 800;
+    letter-spacing: -0.11rem;
+    line-height: 0.567
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 189px;
+    left: 44px;
+}
+
+input {
+    padding: 13px 9px;
+    width: 342px;
+    height: 38px;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: #2E2E2F;
+    background-image: url("../img/Search.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 40px; 
+    font-size: 14px;
+    font-weight: 500;
+    color: #A5A5A5;
+}
+
+input::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+button {
+    background-color: #4B4B4B;
+    color: inherit;
+    border: none;
+    padding: 9px 11px 9px 17px;
+    width: 120px;
+    height: 38px;
+    font-weight: 500;
+    font-size: 14px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+}
+
+.exploring {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 571px;
+    color: #2E2E2F;
+    font-weight: 700;
+    font-size: 18px;
+    display: none;
+}
+
+.exploring img {
+    margin-bottom: 9px;
+}
+
+.movie-container {
+    display: flex;
+    margin: 25px 44px;
+    border-bottom: 1px solid gray;
+}
+
+.movie-img {
+    margin-bottom: 20px;
+}
+
+.movie-details {
+    margin: 15px 0 0 21px;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-title {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 4px 8px 0;
+}
+
+.star {
+    margin-right: 4px;
+}
+
+.rating {
+    font-size: 12px;
+}
+
