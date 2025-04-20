@@ -12,6 +12,7 @@ main {
     font-family: 'Inter', sans-serif;
     color: #FFF;
     background-color: #0E0E0E;
+    overflow: hidden;
 }
 
 header {
@@ -107,26 +108,48 @@ button {
 
 .movie-img {
     margin-bottom: 20px;
+    border-radius: 2.33px;
 }
 
 .movie-details {
     margin: 15px 0 0 21px;
     display: flex;
     flex-direction: column;
+    gap: 9px;
+}
+
+.title-rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .movie-title {
     display: inline-block;
     font-size: 18px;
     font-weight: 500;
-    margin: 0 4px 8px 0;
-}
-
-.star {
-    margin-right: 4px;
 }
 
 .rating {
     font-size: 12px;
+}
+
+.length-genre-watchlist {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.watchlist-add {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.movie-paragraph {
+    font-size: 14px;
+    color: #A5A5A5;
+    line-height: 20px;
 }
 
